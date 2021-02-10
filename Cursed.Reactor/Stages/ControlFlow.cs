@@ -10,6 +10,7 @@ namespace Cursed.Reactor.Stages
 {
     internal class ControlFlow
     {
+        // All Cflow Remover Credits Go to : https://github.com/SychicBoy/.NetReactorCfCleaner
         public static void Execute(Context Ctx)
         {
             var CfDeob = new BlocksCflowDeobfuscator();
